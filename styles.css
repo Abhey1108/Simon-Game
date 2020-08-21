@@ -5,7 +5,7 @@ body {
 
 #level-title {
   font-family: "Press Start 2P", cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 5%;
   color: #fef2bf;
 }
@@ -17,11 +17,11 @@ body {
 }
 
 .btn {
-  margin: 25px;
+  margin: 1.5rem;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
+  height: 9rem;
+  width: 9rem;
+  border: .5rem solid black;
   border-radius: 20%;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 1.4rem white;
   background-color: grey;
 }
 
