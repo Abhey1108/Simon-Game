@@ -42,22 +42,22 @@ function createPattern() {
 function colorButtonsSounds(colorChosen) {
   switch (colorChosen) {
     case "green":
-      var greenButtonSound = new Audio("/sounds/green.mp3");
+      var greenButtonSound = new Audio("sounds/green.mp3");
       greenButtonSound.play();
       break;
 
     case "red":
-      var redButtonSound = new Audio("/sounds/red.mp3");
+      var redButtonSound = new Audio("sounds/red.mp3");
       redButtonSound.play();
       break;
 
     case "yellow":
-      var yellowButtonSound = new Audio("/sounds/yellow.mp3");
+      var yellowButtonSound = new Audio("sounds/yellow.mp3");
       yellowButtonSound.play();
       break;
 
     case "blue":
-      var blueButtonSound = new Audio("/sounds/blue.mp3");
+      var blueButtonSound = new Audio("sounds/blue.mp3");
       blueButtonSound.play();
       break;
 
@@ -112,7 +112,7 @@ function correctAnswer() {
 
 function wrongAnswer() {
   $("#level-title").text("Game Over!");
-  var wrongAnswerSound = new Audio("/sounds/wrong.mp3");
+  var wrongAnswerSound = new Audio("sounds/wrong.mp3");
   wrongAnswerSound.play();
   setTimeout(function () {
     $("#level-title").text("Refersh To begin again");
