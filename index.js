@@ -6,6 +6,12 @@ var patternPlayed = [];
 
 var levelNumber = 1;
 
+// Press button to start --------------------------------------------------------------------------
+
+$(".startButton").click(function () {
+  beginGame();
+});
+
 // Press A key to Start ----------------------------------------------------------------------------
 
 $(document).keypress(function () {
