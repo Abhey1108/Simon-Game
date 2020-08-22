@@ -58,3 +58,18 @@ body {
   font-family: "Press Start 2P", cursive;
   text-align: center;
 }
+
+.startButton{
+  background-color:#e5e5e5;
+  height: 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  border: .2rem solid black;
+  border-radius: 1rem;
+  text-align: center ;
+  padding-top: .5rem;
+  font-family: "Press Start 2P", cursive;
+  font-weight: bolder;
+
+}
+
